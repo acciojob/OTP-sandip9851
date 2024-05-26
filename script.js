@@ -1,5 +1,5 @@
 window.onload = function() {
-  document.getElementById("code").focus();
+  document.getElementById("code-1").focus();
 };
 let inputs = document.querySelectorAll('.code');
 inputs.forEach((input, index) => {
