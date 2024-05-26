@@ -1,3 +1,6 @@
+window.onload = function() {
+  document.getElementById("code").focus();
+};
 let inputs = document.querySelectorAll('.code');
 inputs.forEach((input, index) => {
     input.addEventListener('input', () => {
